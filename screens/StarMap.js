@@ -42,17 +42,17 @@ export default class StarMapScreen extends Component {
                         //     )
                         // }}
 
-                         onChangeText={() => {
-                             this.setState({
-                                 longitude: 
-                             })
-                         }}
-
-                        // onChangeText={(text) => {
+                        // onChangeText={() => {
                         //     this.setState({
-                        //         longitude: text
+                        //       longitude: 
                         //     })
                         // }}
+
+                         onChangeText={(text) => {
+                             this.setState({
+                                 longitude: text
+                             })
+                         }}
                     />
 
                     <TextInput
